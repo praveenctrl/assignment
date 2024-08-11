@@ -1,0 +1,1426 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+body {
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.container {
+    width: 85%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    background-image: url(../images/banner.jpeg);
+    color: #FFD574CC;
+    height: 120vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header-content{
+    width: 624px;
+height: 242px;
+padding-top: 284px;
+padding-left: 130px;
+}
+
+.nav{
+    display: flex;
+}
+
+.group19{
+   width: 190px;
+  height: 45.6px;
+    
+}
+
+.group21{
+margin-left: 130px;
+padding-top: 50px;
+}
+
+.header h1 {
+    font-family: GothamSSm;
+font-size: 65px;
+font-weight: 700;
+line-height: 75px;
+
+
+}
+
+.menu{
+    border-radius: 10px;
+    background: #FD0000;
+    position: relative;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 25px 14px 24px 14px;
+    width: 70px;
+    height: fit-content;
+    box-sizing: border-box;
+    margin-left: 1000px;
+
+}
+
+.vector-8 {
+    margin: 0 0px 6.6px 0;
+    width: 42px;
+    height: 2.6px;
+  }
+   .vector-9 {
+    margin: 0 0 6.6px 0px;
+    width: 42px;
+    height: 2.6px;
+  }
+   .vector-10 {
+    margin: 0 0px;
+    width: 28.9px;
+    height: 2.6px;
+  }
+
+
+.badge {
+    background-color: #a94442;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.badge .number {
+    font-size: 2em;
+    font-weight: bold;
+    display: block;
+}
+
+.badge .text {
+    font-size: 1.2em;
+}
+
+.company-intro {
+    padding: 60px 0;
+    background-color: #f9f9f9;
+}
+
+.company-intro .container{
+    display: flex;
+    
+    justify-content: center;
+   
+}
+
+.company-image {
+    width: 100%;
+    max-width: 600px;
+    margin-right: 40px;
+    display: block;
+}
+
+.company-info {
+    max-width: 600px;
+    margin-top: 100px;
+}
+
+.company-info h2 {
+    font-size: 2em;
+    color: #333;
+}
+
+.company-info p {
+    font-size: 1.1em;
+    color: #555;
+}
+
+.btn-read-more {
+    display: flex;
+    gap: 30px;
+    background: #ED1C24;
+    color: #fff;
+    padding: 15px 20px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+    height: 60px;
+width: 190px;
+text-align: left;
+font-weight: 500px;
+font-size: 18px;
+line-height: 24px;
+}
+
+.btn-read-more .arrow{
+    width: 26px;
+    height: 26px;
+
+}
+
+.quality-standards {
+ background: linear-gradient(180deg, #0A1C2B 0%, #214D66 100%);
+    color: #fff;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.quality-standards h2 {
+    font-size: 3em;
+    margin-bottom: 40px;
+}
+
+.standards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.standard-item img {
+    width: 60px;
+    margin-bottom: 20px;
+}
+
+.standard-item p{
+    text-align: center;
+    overflow-wrap: break-word;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 1.5;
+    color: #ffffff;
+    font-family: 'Gotham', 'source sans 3';
+}
+
+.product-range {
+    padding: 60px 0;
+    background-color: #fff;
+    text-align: center;
+}
+
+.product-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.product-card {   
+    background-color: #f4f4f4;
+    text-align: center;
+    width: 280px;
+    height: 200px;
+    top: 198px;
+    gap: 0px;
+    margin-bottom: 40px;
+
+}
+
+
+
+.product-card .p{
+    margin-top: 172px;
+    padding: 5px;
+    background: #F99F1C;
+   
+
+}
+
+
+.product-cards {   
+    background-color: #f4f4f4;
+    width: 280px;
+    border-radius: 10px;
+    height: 200px;
+    top: 198px;
+    gap: 0px;
+    margin-bottom: 40px;
+
+}
+
+.product-arrow{
+    height: 20px;
+    width: 21px;
+    margin-left: 170px;
+}
+
+
+.experience {
+    position: relative;
+    background: url('../images/customer.jpeg') no-repeat center center/cover;
+    color: #fff;
+    padding: 80px 0;
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.experience-content h2 {
+    font-size: 3em;
+    padding: 0 30%;
+    margin-bottom: 40px;
+}
+
+.stats strong{
+ color: #ffffff;
+ font-size: 2em;
+}
+
+.stats {
+    display: flex;
+    justify-content: center;
+    
+    margin: 0 10%;
+    font-size: 1em;
+    color: #F99F1C;
+}
+
+.vision-mission {
+    background-color: #f7f7f7;
+    padding: 5px 0;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.vision-mission .container {
+    display: flex;
+    width: 100%;
+   gap: 20px;
+}
+
+.vision-mission .working p{
+background-color: #F99F1C;
+font-size: 50px;
+width: 80%;
+height: 160px;
+text-align: left;
+color: #ffffff;
+padding: 60px ;
+margin: 0;
+}
+
+.vision-box,
+.mission-value .mission-box,
+.mission-value .values-box {
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ddd;
+  
+    width: 100%;
+width: 250px;
+height: 280px;
+}
+
+.img{
+    width: 80px;
+    height: 80px;
+    padding-left: 180px;
+}
+.vision-box {
+    margin-top: 200px;
+}
+
+.values-box{
+    margin-top: 20px;
+}
+
+.starefi1{
+    display: flex;
+    margin: 40px 160px;
+    
+}
+
+.starefi1 p{
+    margin: 20px 50px;   
+    overflow-wrap: break-word;
+    font-family: 'Gotham', 'Roboto Condensed';
+    font-size: 16px;
+    font-weight: 400px;
+    line-height: 2;
+    color: #000000;
+    width: 502px;
+}
+
+.starefi2{
+    display: flex;
+    margin: 40px 160px;
+    
+}
+
+.starefi2 p{
+    margin: 20px 50px;   
+    overflow-wrap: break-word;
+    font-family: 'Gotham', 'Roboto Condensed';
+    font-size: 16px;
+    font-weight: 400px;
+    line-height: 2;
+    color: #000000;
+    width: 502px;
+}
+.staefi-p{
+    border: 1px solid rgb(140, 138, 138);
+}
+
+
+.logo{
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+
+footer .container{
+    display: flex;
+    gap: 350px;
+}
+
+
+
+.social-links{
+    display: flex;
+  flex-direction: row;
+  width: 168px;
+  box-sizing: border-box;
+  
+}
+
+
+.group-4 {
+    margin-right: 7.8px;
+    width: 27.4px;
+    height: 27px;
+  }
+ .group-5 {
+    margin-right: 7.8px;
+    width: 27.4px;
+    height: 27px;
+  }
+.group-7 {
+    width: 27.4px;
+    height: 27px;
+  }
+.group-9 {
+    margin: 0px 8px 0px 0;
+    width: 27.4px;
+    height: 26.9px;
+  }
+ .group-12 {
+    margin: 0.3px 8px 0.3px 0;
+    width: 26.9px;
+    height: 26.5px;
+  }
+
+
+  .footer {
+    background-color: #EBEBEB;
+   
+  }
+  .social-links{
+    align-items: center;
+  }
+
+
+  
+  .group-80 {
+    background: #F99F1C;
+    display: flex;
+    align-items: center; /* Center content vertically */
+    justify-content: center; /* Center content horizontally */
+    padding: 9px 10px;
+    width: 40px;
+    height: 30px;
+    box-sizing: border-box;
+    color: #fff; /* Optional: Text color if needed */
+    font-size: 12px; /* Optional: Adjust font size if needed */
+  
+    font-weight: bold; /* Optional: Make text bold if needed */
+  }
+
+.vector-65 {
+    width: 20px;
+    height: 15px;
+  }
+
+  .group-81{
+    display: none;
+  }
+
+  @media screen and (max-width: 320px) {
+
+    .hr{
+        display: none;
+    }
+
+
+    .nav .group21{
+        margin: 0;
+        padding-top: 20px;
+        padding-left: 30px;
+    }
+
+    .group19{
+        width: 100px;
+    }
+
+    .menu{
+        margin-left: 110px;
+        width: 50px;
+        height: 50px;
+       padding:  15px 10px 24px 14px;
+    }
+
+    .vector-8 {
+        margin: 0 0px 6px 10px;
+        width: 30px;
+        height: 2.6px;
+      }
+       .vector-9 {
+        margin: 0 0 6px 10px;
+        width: 30px;
+        height: 2.6px;
+      }
+       .vector-10 {
+        margin: 0 0px;
+        width: 18.9px;
+        height: 2.6px;
+      }
+      
+      .header {
+        height: 80vh;
+        background-repeat: no-repeat;
+        background-size: 360px 490px;
+    }
+    
+      .header-content{
+        width: 250px;
+    height: 242px;
+    padding-top: 100px;
+    padding-left: 15px;
+    }
+    
+      
+.header h1 {
+    font-family: GothamSSm;
+font-size: 20px;
+font-weight: 500;
+line-height: 50px;
+}
+
+
+
+/* company */
+
+.company-intro .container{
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+
+.company-intro {
+    padding: 60px 0;
+    background-color: #f9f9f9;
+}
+
+.company-image {
+    width: 100%;
+    max-width: 600px;
+    margin-right: 0px;
+    display: block;
+}
+
+.company-info {
+    max-width: 600px;
+    margin-top: 10px;
+}
+
+
+.btn-read-more {
+    margin-left: 70px;
+}
+
+/*quality*/
+
+.quality-standards h2 {
+    font-size: 2em;
+   
+}
+
+.standard-item img {
+    width: 60px;
+    margin-bottom: 0px;
+}
+/* experience */
+
+.stats {
+    
+    flex-direction: column;
+   
+}
+
+/* vision mission  */
+
+.vision-mission .container {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.vision-mission .working{
+    width: 275px;
+}
+
+.vision-mission .working p{
+    background-color: #F99F1C;
+    font-size: 35px;
+    text-align: center;
+    padding: 50px;
+    margin: 0;
+}
+
+
+.working-man{
+width: 320px;
+height: 250px;
+}
+
+
+.vision-box{
+    margin-top: 0;
+}
+
+.box{
+  margin-left: 15px;
+}
+
+
+.experience-content h2 {
+    font-size: 2em;
+    padding: 0;
+    margin-bottom: 40px;
+}
+
+/* starefi */
+
+
+
+.starefi1{
+    flex-wrap: wrap-reverse;
+    margin: 10px;
+}
+
+
+.starefi1 p{
+    margin: 20px 10px;   
+    text-align: center;
+    width: 278px;
+}
+
+.starefi2{
+    flex-wrap: wrap;
+    margin: 15px;
+    
+}
+
+.starefi2 p{
+    margin: 20px 10px;   
+    text-align: center;
+    width: 278px;
+}
+
+.starfi-img{
+    width: 300px;
+height: 250px;
+}
+
+
+
+
+
+/* footer */
+
+.footer .container{
+    align-items: center;
+    flex-direction: column-reverse;
+    gap: 20px;
+}
+
+
+.footer p{
+    margin: 0;
+    font-size: 15px;
+}
+.group-80{
+    display: none;
+}
+
+
+.group-81 {
+    background: #F99F1C;
+    display: flex;
+    align-items: center; /* Center content vertically */
+    justify-content: center; /* Center content horizontally */
+    padding: 9px 10px;
+    width: 40px;
+    height: 30px;
+    box-sizing: border-box;
+    color: #fff; /* Optional: Text color if needed */
+    font-size: 12px; /* Optional: Adjust font size if needed */  
+    font-weight: bold; /* Optional: Make text bold if needed */
+  }
+
+
+.vector-66 {
+    width: 20px;
+    height: 15px;
+  }
+
+
+}
+
+
+
+  @media screen and (min-width: 321px) and (max-width: 380px){
+
+    .hr{
+        display: none;
+    }
+
+
+    .nav .group21{
+        margin: 0;
+        padding-top: 20px;
+        padding-left: 30px;
+    }
+
+    .group19{
+        width: 100px;
+    }
+
+    .menu{
+        margin-left: 160px;
+        width: 50px;
+        height: 50px;
+       padding:  15px 10px 24px 14px;
+    }
+
+    .vector-8 {
+        margin: 0 0px 6px 10px;
+        width: 30px;
+        height: 2.6px;
+      }
+       .vector-9 {
+        margin: 0 0 6px 10px;
+        width: 30px;
+        height: 2.6px;
+      }
+       .vector-10 {
+        margin: 0 0px;
+        width: 18.9px;
+        height: 2.6px;
+      }
+      
+      .header {
+        background-image: url(../images/banner.jpeg);
+        color: #FFD574CC;
+        height: 85vh;
+        background-repeat: no-repeat;
+        background-size: 420px 540px;
+    }
+    
+      .header-content{
+        width: 250px;
+    height: 242px;
+    padding-top: 100px;
+    padding-left: 15px;
+    }
+    
+      
+.header h1 {
+    font-family: GothamSSm;
+font-size: 25px;
+font-weight: 500;
+line-height: 50px;
+}
+
+
+
+/* company */
+
+.company-intro .container{
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+
+.company-intro {
+    padding: 60px 0;
+    background-color: #f9f9f9;
+}
+
+.company-image {
+    width: 100%;
+    max-width: 600px;
+    margin-right: 0px;
+    display: block;
+}
+
+.company-info {
+    max-width: 600px;
+    margin-top: 10px;
+}
+
+
+.btn-read-more {
+    margin-left: 70px;
+}
+
+/*quality*/
+
+.quality-standards h2 {
+    font-size: 2em;
+   
+}
+
+.standard-item img {
+    width: 60px;
+    margin-bottom: 0px;
+}
+/* experience */
+
+.stats {
+    
+    flex-direction: column;
+   
+}
+
+/* vision mission  */
+
+.vision-mission .container {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.vision-mission .working{
+    width: 344px;
+}
+
+.vision-mission .working p{
+    background-color: #F99F1C;
+    font-size: 35px;
+    text-align: center;
+    padding: 50px;
+    margin: 0;
+}
+
+
+.working-man{
+width: 375px;
+height: 250px;
+}
+
+
+.vision-box{
+    margin-top: 0;
+}
+
+.box{
+  margin-left: 40px;
+}
+
+
+.experience-content h2 {
+    font-size: 2em;
+    padding: 0;
+    margin-bottom: 40px;
+}
+
+/* starefi */
+
+.starefi1{
+    flex-wrap: wrap-reverse;
+    margin: 10px;
+}
+
+
+.starefi1 p{
+    margin: 20px 10px;   
+    text-align: center;
+    width: 330px;
+}
+
+
+
+.starefi2{
+    flex-wrap: wrap;
+    margin: 15px;
+    
+}
+
+.starefi2 p{
+    margin: 20px 10px;   
+    text-align: center;
+    width: 330px;
+}
+
+.starfi-img{
+    width: 352px;
+height: 250px;
+}
+
+
+
+/* footer */
+
+.footer .container{
+    align-items: center;
+    flex-direction: column-reverse;
+    gap: 20px;
+}
+
+
+.footer p{
+    margin: 0;
+}
+.group-80{
+    display: none;
+}
+
+
+
+.group-81 {
+    background: #F99F1C;
+    display: flex;
+    align-items: center; /* Center content vertically */
+    justify-content: center; /* Center content horizontally */
+    padding: 9px 10px;
+    width: 40px;
+    height: 30px;
+    box-sizing: border-box;
+    color: #fff; /* Optional: Text color if needed */
+    font-size: 12px; /* Optional: Adjust font size if needed */  
+    font-weight: bold; /* Optional: Make text bold if needed */
+  }
+
+
+.vector-66 {
+    width: 20px;
+    height: 15px;
+  }
+
+}
+
+
+@media screen and (min-width: 381px) and (max-width: 426px){
+
+    .hr{
+        display: none;
+    }
+
+
+    .nav .group21{
+        margin: 0;
+        padding-top: 20px;
+        padding-left: 30px;
+    }
+
+    .group19{
+        width: 100px;
+    }
+
+    .menu{
+        margin-left: 180px;
+        width: 50px;
+        height: 50px;
+       padding:  15px 10px 24px 14px;
+    }
+
+    .vector-8 {
+        margin: 0 0px 6px 10px;
+        width: 30px;
+        height: 2.6px;
+      }
+       .vector-9 {
+        margin: 0 0 6px 10px;
+        width: 30px;
+        height: 2.6px;
+      }
+       .vector-10 {
+        margin: 0 0px;
+        width: 18.9px;
+        height: 2.6px;
+      }
+      
+      .header {
+        height: 85vh;
+        background-size: 440px 540px;
+    }
+    
+      .header-content{
+        width: 250px;
+    height: 242px;
+    padding-top: 100px;
+    padding-left: 15px;
+    }
+    
+      
+.header h1 {
+    font-family: GothamSSm;
+font-size: 25px;
+font-weight: 500;
+line-height: 50px;
+}
+
+
+
+/* company */
+
+.company-intro .container{
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+
+.company-intro {
+    padding: 60px 0;
+    background-color: #f9f9f9;
+}
+
+.company-image {
+    width: 100%;
+    max-width: 600px;
+    margin-right: 0px;
+    display: block;
+}
+
+.company-info {
+    max-width: 600px;
+    margin-top: 10px;
+}
+
+
+.btn-read-more {
+    margin-left: 70px;
+}
+
+/*quality*/
+
+.quality-standards h2 {
+    font-size: 2em;
+   
+}
+
+.standard-item img {
+    width: 60px;
+    margin-bottom: 0px;
+}
+/* experience */
+
+.stats {
+    
+    flex-direction: column;
+   
+}
+
+/* vision mission  */
+
+.vision-mission .container {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.vision-mission .working{
+    width: 95.5%;
+}
+
+.vision-mission .working p{
+    background-color: #F99F1C;
+    font-size: 40px;
+    text-align: center;
+    padding: 50px;
+    margin: 0;
+}
+
+
+.working-man{
+width: 425px;
+height: 250px;
+}
+
+
+.vision-box{
+    margin-top: 0;
+}
+
+.box{
+  margin-left: 70px;
+}
+
+
+.experience-content h2 {
+    font-size: 2em;
+    padding: 0;
+    margin-bottom: 40px;
+}
+
+/* starefi */
+
+.starefi1{
+    flex-wrap: wrap-reverse;
+    margin-left: 40px;
+}
+
+
+.starefi1 p{
+    margin: 20px 10px;   
+    text-align: center;
+    width: 330px;
+}
+
+
+
+.starefi2{
+    flex-wrap: wrap;
+    margin-left: 40px;
+    
+}
+
+.starefi2 p{
+    margin: 20px 10px;   
+    text-align: center;
+    width: 330px;
+}
+
+.starfi-img{
+    width: 352px;
+height: 250px;
+}
+
+
+
+/* footer */
+
+.footer .container{
+    align-items: center;
+    flex-direction: column-reverse;
+    gap: 20px;
+}
+
+
+.footer p{
+    margin: 0;
+}
+.group-80{
+    display: none;
+}
+
+
+
+.group-81 {
+    background: #F99F1C;
+    display: flex;
+    align-items: center; /* Center content vertically */
+    justify-content: center; /* Center content horizontally */
+    padding: 9px 10px;
+    width: 40px;
+    height: 30px;
+    box-sizing: border-box;
+    color: #fff; /* Optional: Text color if needed */
+    font-size: 12px; /* Optional: Adjust font size if needed */
+  
+    font-weight: bold; /* Optional: Make text bold if needed */
+  }
+
+
+.vector-66 {
+    width: 20px;
+    height: 15px;
+  }
+
+}
+
+@media screen and (min-width: 427px) and (max-width: 768px) {
+    .hr{
+        display: none;
+    }
+
+
+    .nav .group21{
+        margin: 0;
+        padding-top: 25px;
+        padding-left: 50px;
+    }
+
+    .group19{
+        width: 120px;
+    }
+
+    .menu{
+        margin-left: 500px;
+        width: 50px;
+        height: 50px;
+       padding:  15px 10px 24px 14px;
+    }
+
+    .vector-8 {
+        margin: 0 0px 6px 10px;
+        width: 30px;
+        height: 2.6px;
+      }
+       .vector-9 {
+        margin: 0 0 6px 10px;
+        width: 30px;
+        height: 2.6px;
+      }
+       .vector-10 {
+        margin: 0 0px;
+        width: 18.9px;
+        height: 2.6px;
+      }
+      
+      .header {
+        height: 100vh;
+        background-size: 880px 650px;
+    }
+    
+      .header-content{
+        width: 350px;
+    height: 242px;
+    padding-top: 110px;
+    padding-left: 35px;
+    }
+    
+      
+.header h1 {
+font-size: 38px;
+
+}
+
+
+
+/* company */
+
+.company-intro .container{
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+
+.company-intro {
+    padding: 60px 0;
+    background-color: #f9f9f9;
+}
+
+.company-image {
+    width: 100%;
+    max-width: 600px;
+    margin-right: 0px;
+    display: block;
+}
+
+.company-info {
+    max-width: 600px;
+    margin-top: 10px;
+}
+
+
+.btn-read-more {
+    margin-left: 200px;
+}
+
+/*quality*/
+
+.quality-standards h2 {
+    font-size: 2em;
+   
+}
+
+.standard-item img {
+    width: 60px;
+    margin-bottom: 0px;
+}
+/* experience */
+
+.stats {
+    
+    flex-direction: column;
+   
+}
+
+/* vision mission  */
+
+.vision-mission .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+}
+
+.vision-mission .working{
+    width:100%;
+    padding-left: 0px;
+}
+
+.vision-mission .working p{
+    background-color: #F99F1C;
+    font-size: 55px;
+    text-align: center;
+    padding: 0px;
+    margin: 0;
+}
+
+
+.working-man{
+width: 768px;
+height: 250px;
+}
+
+
+.vision-box{
+    margin-top: 0;
+}
+
+
+
+.box{
+  margin-left: 150px;
+}
+
+
+
+
+
+.vision-mission {
+    background-color: #f7f7f7;
+    padding: 5px 0;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.vision-mission .container {
+    display: flex;
+    width: 100%;
+   gap: 20px;
+}
+
+.vision-mission .working p {
+    width: 100%;
+}
+
+.vision-box,
+.mission-value .mission-box,
+.mission-value .values-box {
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ddd;
+  
+    width: 60%;
+height: 350px;
+}
+
+.box p {
+  font-size: 1.4rem;
+}
+
+.box h3{
+font-size: 2rem;
+}
+
+
+.img{
+    width: 100px;
+    height: 100px;
+    padding-left: 340px;
+}
+
+
+.values-box{
+    margin-top: 20px;
+}
+
+
+.experience-content h2 {
+    font-size: 2em;
+    padding: 0;
+    margin-bottom: 40px;
+}
+
+/* starefi */
+
+.starefi1{
+    margin-left: 40px;
+}
+
+
+.starefi1 p{
+    margin: 20px 10px;   
+    text-align: center;
+    width: 330px;
+}
+
+
+
+.starefi2{
+    margin-left: 40px;
+    
+}
+
+.starefi2 p{
+    margin: 20px 10px;   
+    text-align: center;
+    width: 330px;
+}
+
+.starfi-img{
+    width: 352px;
+height: 360px;
+}
+
+
+
+/* footer */
+
+.footer .container{
+    align-items: center;
+    flex-direction: column-reverse;
+    gap: 20px;
+}
+
+
+.footer p{
+    margin: 0;
+}
+.group-80{
+    display: none;
+}
+
+
+
+.group-81 {
+    background: #F99F1C;
+    display: flex;
+    align-items: center; /* Center content vertically */
+    justify-content: center; /* Center content horizontally */
+    padding: 9px 10px;
+    width: 40px;
+    height: 30px;
+    box-sizing: border-box;
+    color: #fff; /* Optional: Text color if needed */
+    font-size: 12px; /* Optional: Adjust font size if needed */
+  
+    font-weight: bold; /* Optional: Make text bold if needed */
+  }
+
+
+.vector-66 {
+    width: 20px;
+    height: 15px;
+  }
+
+}
